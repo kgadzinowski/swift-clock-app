@@ -12,10 +12,11 @@
 		2F8C20631CA1377C006D0ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C20561CA1377C006D0ECB /* LaunchScreen.storyboard */; };
 		2F8C20641CA1377C006D0ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C20581CA1377C006D0ECB /* Main.storyboard */; };
 		2F8C20651CA1377C006D0ECB /* ClockApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C205A1CA1377C006D0ECB /* ClockApp.xcdatamodeld */; };
-		2F8C20671CA1377C006D0ECB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C205F1CA1377C006D0ECB /* DetailViewController.swift */; };
+		2F8C20671CA1377C006D0ECB /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C205F1CA1377C006D0ECB /* ClockViewController.swift */; };
 		2F8C20681CA1377C006D0ECB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C20601CA1377C006D0ECB /* MasterViewController.swift */; };
 		2F8C206B1CA13855006D0ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C20691CA13855006D0ECB /* AppDelegate.swift */; };
 		2F8C206C1CA13855006D0ECB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C206A1CA13855006D0ECB /* Info.plist */; };
+		2F8C206E1CA13957006D0ECB /* ClocksListViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C206D1CA13957006D0ECB /* ClocksListViewControllerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +38,11 @@
 		2F8C20571CA1377C006D0ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F8C20591CA1377C006D0ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F8C205B1CA1377C006D0ECB /* ClockApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClockApp.xcdatamodel; sourceTree = "<group>"; };
-		2F8C205F1CA1377C006D0ECB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2F8C205F1CA1377C006D0ECB /* ClockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
 		2F8C20601CA1377C006D0ECB /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		2F8C20691CA13855006D0ECB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F8C206A1CA13855006D0ECB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F8C206D1CA13957006D0ECB /* ClocksListViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClocksListViewControllerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +123,9 @@
 		2F8C205E1CA1377C006D0ECB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2F8C205F1CA1377C006D0ECB /* DetailViewController.swift */,
+				2F8C205F1CA1377C006D0ECB /* ClockViewController.swift */,
 				2F8C20601CA1377C006D0ECB /* MasterViewController.swift */,
+				2F8C206D1CA13957006D0ECB /* ClocksListViewControllerTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -229,10 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8C206E1CA13957006D0ECB /* ClocksListViewControllerTableViewController.swift in Sources */,
 				2F8C206B1CA13855006D0ECB /* AppDelegate.swift in Sources */,
 				2F8C20681CA1377C006D0ECB /* MasterViewController.swift in Sources */,
 				2F8C20651CA1377C006D0ECB /* ClockApp.xcdatamodeld in Sources */,
-				2F8C20671CA1377C006D0ECB /* DetailViewController.swift in Sources */,
+				2F8C20671CA1377C006D0ECB /* ClockViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
