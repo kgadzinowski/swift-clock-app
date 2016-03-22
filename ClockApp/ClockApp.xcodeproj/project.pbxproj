@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F8C202E1CA1316A006D0ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C202D1CA1316A006D0ECB /* AppDelegate.swift */; };
-		2F8C20311CA1316A006D0ECB /* ClockApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C202F1CA1316A006D0ECB /* ClockApp.xcdatamodeld */; };
-		2F8C20331CA1316A006D0ECB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C20321CA1316A006D0ECB /* MasterViewController.swift */; };
-		2F8C20351CA1316A006D0ECB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C20341CA1316A006D0ECB /* DetailViewController.swift */; };
-		2F8C20381CA1316A006D0ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C20361CA1316A006D0ECB /* Main.storyboard */; };
-		2F8C203A1CA1316A006D0ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C20391CA1316A006D0ECB /* Assets.xcassets */; };
-		2F8C203D1CA1316A006D0ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C203B1CA1316A006D0ECB /* LaunchScreen.storyboard */; };
 		2F8C20481CA1316A006D0ECB /* ClockAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C20471CA1316A006D0ECB /* ClockAppTests.swift */; };
+		2F8C20621CA1377C006D0ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C20551CA1377C006D0ECB /* Assets.xcassets */; };
+		2F8C20631CA1377C006D0ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C20561CA1377C006D0ECB /* LaunchScreen.storyboard */; };
+		2F8C20641CA1377C006D0ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C20581CA1377C006D0ECB /* Main.storyboard */; };
+		2F8C20651CA1377C006D0ECB /* ClockApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C205A1CA1377C006D0ECB /* ClockApp.xcdatamodeld */; };
+		2F8C20671CA1377C006D0ECB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C205F1CA1377C006D0ECB /* DetailViewController.swift */; };
+		2F8C20681CA1377C006D0ECB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C20601CA1377C006D0ECB /* MasterViewController.swift */; };
+		2F8C206B1CA13855006D0ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C20691CA13855006D0ECB /* AppDelegate.swift */; };
+		2F8C206C1CA13855006D0ECB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C206A1CA13855006D0ECB /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +30,17 @@
 
 /* Begin PBXFileReference section */
 		2F8C202A1CA1316A006D0ECB /* ClockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F8C202D1CA1316A006D0ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F8C20301CA1316A006D0ECB /* ClockApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClockApp.xcdatamodel; sourceTree = "<group>"; };
-		2F8C20321CA1316A006D0ECB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		2F8C20341CA1316A006D0ECB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		2F8C20371CA1316A006D0ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2F8C20391CA1316A006D0ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2F8C203C1CA1316A006D0ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2F8C203E1CA1316A006D0ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F8C20431CA1316A006D0ECB /* ClockAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8C20471CA1316A006D0ECB /* ClockAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAppTests.swift; sourceTree = "<group>"; };
 		2F8C20491CA1316A006D0ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F8C20551CA1377C006D0ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F8C20571CA1377C006D0ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F8C20591CA1377C006D0ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F8C205B1CA1377C006D0ECB /* ClockApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClockApp.xcdatamodel; sourceTree = "<group>"; };
+		2F8C205F1CA1377C006D0ECB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2F8C20601CA1377C006D0ECB /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		2F8C20691CA13855006D0ECB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F8C206A1CA13855006D0ECB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +82,11 @@
 		2F8C202C1CA1316A006D0ECB /* ClockApp */ = {
 			isa = PBXGroup;
 			children = (
-				2F8C202D1CA1316A006D0ECB /* AppDelegate.swift */,
-				2F8C20321CA1316A006D0ECB /* MasterViewController.swift */,
-				2F8C20341CA1316A006D0ECB /* DetailViewController.swift */,
-				2F8C20361CA1316A006D0ECB /* Main.storyboard */,
-				2F8C20391CA1316A006D0ECB /* Assets.xcassets */,
-				2F8C203B1CA1316A006D0ECB /* LaunchScreen.storyboard */,
-				2F8C203E1CA1316A006D0ECB /* Info.plist */,
-				2F8C202F1CA1316A006D0ECB /* ClockApp.xcdatamodeld */,
+				2F8C20541CA1377C006D0ECB /* Assets */,
+				2F8C205D1CA1377C006D0ECB /* Clocks */,
+				2F8C205E1CA1377C006D0ECB /* Controllers */,
+				2F8C20691CA13855006D0ECB /* AppDelegate.swift */,
+				2F8C206A1CA13855006D0ECB /* Info.plist */,
 			);
 			path = ClockApp;
 			sourceTree = "<group>";
@@ -100,6 +98,33 @@
 				2F8C20491CA1316A006D0ECB /* Info.plist */,
 			);
 			path = ClockAppTests;
+			sourceTree = "<group>";
+		};
+		2F8C20541CA1377C006D0ECB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2F8C20551CA1377C006D0ECB /* Assets.xcassets */,
+				2F8C20561CA1377C006D0ECB /* LaunchScreen.storyboard */,
+				2F8C20581CA1377C006D0ECB /* Main.storyboard */,
+				2F8C205A1CA1377C006D0ECB /* ClockApp.xcdatamodeld */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2F8C205D1CA1377C006D0ECB /* Clocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Clocks;
+			sourceTree = "<group>";
+		};
+		2F8C205E1CA1377C006D0ECB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F8C205F1CA1377C006D0ECB /* DetailViewController.swift */,
+				2F8C20601CA1377C006D0ECB /* MasterViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +208,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F8C203D1CA1316A006D0ECB /* LaunchScreen.storyboard in Resources */,
-				2F8C203A1CA1316A006D0ECB /* Assets.xcassets in Resources */,
-				2F8C20381CA1316A006D0ECB /* Main.storyboard in Resources */,
+				2F8C206C1CA13855006D0ECB /* Info.plist in Resources */,
+				2F8C20641CA1377C006D0ECB /* Main.storyboard in Resources */,
+				2F8C20631CA1377C006D0ECB /* LaunchScreen.storyboard in Resources */,
+				2F8C20621CA1377C006D0ECB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,10 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F8C20311CA1316A006D0ECB /* ClockApp.xcdatamodeld in Sources */,
-				2F8C202E1CA1316A006D0ECB /* AppDelegate.swift in Sources */,
-				2F8C20331CA1316A006D0ECB /* MasterViewController.swift in Sources */,
-				2F8C20351CA1316A006D0ECB /* DetailViewController.swift in Sources */,
+				2F8C206B1CA13855006D0ECB /* AppDelegate.swift in Sources */,
+				2F8C20681CA1377C006D0ECB /* MasterViewController.swift in Sources */,
+				2F8C20651CA1377C006D0ECB /* ClockApp.xcdatamodeld in Sources */,
+				2F8C20671CA1377C006D0ECB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,20 +255,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2F8C20361CA1316A006D0ECB /* Main.storyboard */ = {
+		2F8C20561CA1377C006D0ECB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2F8C20371CA1316A006D0ECB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2F8C203B1CA1316A006D0ECB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F8C203C1CA1316A006D0ECB /* Base */,
+				2F8C20571CA1377C006D0ECB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2F8C20581CA1377C006D0ECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8C20591CA1377C006D0ECB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -408,12 +434,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2F8C202F1CA1316A006D0ECB /* ClockApp.xcdatamodeld */ = {
+		2F8C205A1CA1377C006D0ECB /* ClockApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				2F8C20301CA1316A006D0ECB /* ClockApp.xcdatamodel */,
+				2F8C205B1CA1377C006D0ECB /* ClockApp.xcdatamodel */,
 			);
-			currentVersion = 2F8C20301CA1316A006D0ECB /* ClockApp.xcdatamodel */;
+			currentVersion = 2F8C205B1CA1377C006D0ECB /* ClockApp.xcdatamodel */;
 			path = ClockApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
