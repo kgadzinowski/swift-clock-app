@@ -22,6 +22,7 @@
 		2F8C20741CA17EC3006D0ECB /* DigitalClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C20731CA17EC3006D0ECB /* DigitalClock.swift */; };
 		2F8C20761CA17EE3006D0ECB /* AnalogClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C20751CA17EE3006D0ECB /* AnalogClock.swift */; };
 		2F8C20781CA191D0006D0ECB /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C20771CA191D0006D0ECB /* ClockView.swift */; };
+		2FB3328D1CA2925B00E72FC1 /* ClockTypeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3328C1CA2925B00E72FC1 /* ClockTypeCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2F8C20731CA17EC3006D0ECB /* DigitalClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitalClock.swift; sourceTree = "<group>"; };
 		2F8C20751CA17EE3006D0ECB /* AnalogClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogClock.swift; sourceTree = "<group>"; };
 		2F8C20771CA191D0006D0ECB /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		2FB3328C1CA2925B00E72FC1 /* ClockTypeCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockTypeCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		2F8C202C1CA1316A006D0ECB /* ClockApp */ = {
 			isa = PBXGroup;
 			children = (
+				2FB3328B1CA2924300E72FC1 /* Pages */,
 				2F8C20541CA1377C006D0ECB /* Assets */,
 				2F8C205D1CA1377C006D0ECB /* Clocks */,
 				2F8C205E1CA1377C006D0ECB /* Controllers */,
@@ -143,6 +146,14 @@
 				2F8C206D1CA13957006D0ECB /* ClocksListViewControllerTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2FB3328B1CA2924300E72FC1 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3328C1CA2925B00E72FC1 /* ClockTypeCellView.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +262,7 @@
 				2F8C20721CA17E25006D0ECB /* Clock.swift in Sources */,
 				2F8C206E1CA13957006D0ECB /* ClocksListViewControllerTableViewController.swift in Sources */,
 				2F8C20761CA17EE3006D0ECB /* AnalogClock.swift in Sources */,
+				2FB3328D1CA2925B00E72FC1 /* ClockTypeCellView.swift in Sources */,
 				2F8C206B1CA13855006D0ECB /* AppDelegate.swift in Sources */,
 				2F8C20681CA1377C006D0ECB /* MasterViewController.swift in Sources */,
 				2F8C20651CA1377C006D0ECB /* ClockApp.xcdatamodeld in Sources */,

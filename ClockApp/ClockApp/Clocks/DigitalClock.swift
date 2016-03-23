@@ -11,7 +11,11 @@ import UIKit
 class DigitalClock: Clock {
     
     func getName() -> String {
-        return "Digital Clock";
+        return "Digital Clock"
+    }
+    
+    func getType() -> String {
+        return "digital"
     }
     
     func onClockTick() {

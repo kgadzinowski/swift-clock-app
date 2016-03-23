@@ -14,6 +14,10 @@ class AnalogClock: Clock {
         return "Analog Clock";
     }
     
+    func getType() -> String {
+        return "analog"
+    }
+    
     func onClockTick() {
         // TODO: Implement
     }

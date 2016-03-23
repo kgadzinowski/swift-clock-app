@@ -10,6 +10,7 @@ import UIKit
 
 protocol Clock {
     func getName() -> String
+    func getType() -> String
     func onClockTick()
     func onViewCreated()
     func onViewChanged()
